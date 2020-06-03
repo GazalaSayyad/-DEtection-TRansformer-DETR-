@@ -10,7 +10,7 @@ The overall DETR architecture is actually pretty easy to understand. It contains
 2.an Encoder-Decoder transformer
 3.a simple feed-forward network
 
-
+https://user-images.githubusercontent.com/61413948/83627954-60ce0700-a5b5-11ea-9a67-2cc39699b877.png
 
 Here, the CNN backbone generates a feature map from the input image. Then the output of the CNN backbone is converted into a one-dimensional feature map that is passed to the Transformer encoder as input. The output of this encoder are N number of fixed length embeddings (vectors), where N is the number of objects in the image assumed by the model.
 
